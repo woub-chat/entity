@@ -1,20 +1,13 @@
 {
-    "name": "bfg/entity",
+    "name": "woub-chat/entity",
     "description": "Pattern for generating php entities.",
-    "type": "bfg-script",
-    "keywords": ["bfg", "entity", "script"],
-    "homepage": "https://github.com/bfg-s/entity",
+    "type": "script",
+    "keywords": ["entity", "script"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "bfg",
-            "email": "bfg.script@gmail.com"
-        }
-    ],
     "prefer-stable": true,
     "require": {
         "php": ">=8.0.0",
-        "bfg/text": "^0.0.4"
+        "woub-chat/text": "^0.0.4"
     },
     "require-dev": {},
     "autoload": {
